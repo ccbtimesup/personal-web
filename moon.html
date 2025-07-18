@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Personal</title>
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+        }
+        h1, h2, h3, h6 {
+            text-align: left;
+            text-size-adjust: 100%;
+        }
+        h4{
+            font-size: 15px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+
+        h5{
+            text-size-adjust: 300%;
+            font-size: 15px;
+        }
+
+        h6 {
+            font-size: 20px;
+        }        
+        img {
+            display: block;
+            margin: 20px 0 20px 20px;
+            max-width: 50%;
+            height: auto;
+            object-fit: cover;  
+        }
+       img.profile {
+            display: block;
+            margin: 20px 0 20px 20px; 
+            width: 500px; 
+            height: 500px; 
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .contact-links {
+            text-align: left;
+            font-size: 18px;
+        }
+        .contact-links a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+        table{
+            width: 30%;
+            border-collapse: collapse;
+            margin: 20px;
+            font-family: Arial, sans-serif;
+        }
+        th, td{
+            text-align: left;
+            padding: 10px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Welcome to my Personal page</h1>
+
+   
+    <img class="profile" src="profile1.jpg" alt="First image">
+
+    <h2>About Me</h2>
+    <h3>Hello! I'm Mark Dela Cerna and I'm learning HTML</h3>
+    <h6>My Hobbies:</h6>
+    <h5>I enjoy the Following Activities:</h5>
+<ul>
+    <li>Playing codm</li>
+    <li>Watching tiktok</li>
+    <li>Spending time with my girlfriend</li>
+</ul>
+
+    <h6>My Favorite Place</h6>
+
+    <img class="profile" src="profile2.jpg" alt="Second image">
+
+    <h6>Why I Love This Place</h6>
+    <th>
+        Canada is a country that holds a special place in my heart for many reasons.<br>
+        From its breathtaking natural landscapes to its inclusive and diverse culture,<br>
+        Canada stands out as a nation that values peace,<br>
+        kindness, and opportunity.
+    </th>
+
+    <h6>Contact Me</h6>
+    <div class="contact-links">
+        <p>
+            Email me at: 
+            <a href="mailto:markydelacerna085@gmail.com">markydelacerna085@gmail.com</a>
+            Visit my Facebook: 
+            <a href="https://www.facebook.com/marky.delacerna.1820" target="_blank">facebook.com/yourprofile</a>
+        </p>
+    </div>
+
+    <h6>My Favorite Books</h6>
+    <table>
+        <tr>
+            <th> Title</th>
+            <th>Author</th>
+            <th> Year</th>
+        </tr>
+ <tr>
+            <td>Marvel Encyclopedia</td>
+            <td> DK Publishing (foreword by Stan Lee)</td>
+            <td>2019</td>
+        </tr>
+        <tr>
+            <td>Infinity Gauntlet</td>
+            <td>Jim Starlin</td>
+            <td>1991</td>
+        </tr>
+        <tr>
+            <td>Stan Lee: The Man Behind Marvel</td>
+            <td>Bob Batchelor</td>
+            <td>2017</td>
+        </tr>
+    </table>
+
+    <h6>Book Summaries</h6>
+    <h6>Marvel Encyclopedia</h6>
+
+    <th>
+        A comprehensive, visual guide to over 1,200 characters,<br> teams, and events. Perfect for beginners and hardcore fans alike.
+    </th>
+
+    <h6> Infinity Gauntlet </h6>
+    <th>
+        This is the classic comic arc where Thanos collects the Infinity Stones<br> and wipes out half of all life. Inspired Avengers: Infinity War and Endgame.
+    </th>
+
+    <h6> Stan Lee: The Man Behinf Marvel </h6>
+    <th>
+        A great introduction to the life of Stan Lee,<br> the creator of Spider-Man, Iron Man, the X-Men, and more.<br> Shows how Marvel was built.
+    </th>
+
+    <hr>
+    <form action="#" method="post" style="max-width: 400px; margin-left: 20px;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="" required style="width: 50%; padding: 5px; margin-bottom: 10px;"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="" required style="width: 50%; padding: 5px; margin-bottom: 10px;"><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="." rows="4" required style="width: 50%; padding: 5px;"></textarea><br><br>
+
+        <button type="submit" style="padding: 10px 10px; font-size: 12px;">Submit</button>
+    </form>
+    
+</body>
+</html>
